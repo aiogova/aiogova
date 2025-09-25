@@ -1,4 +1,4 @@
-## Hi there 👋
+## This is my personal website project for my web development class
 
 <!--
 **aiogova/aiogova** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
