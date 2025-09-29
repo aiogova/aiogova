@@ -5,25 +5,25 @@ html {
 body {
     font-size: 2.5rem;
     /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-    font-family: 'Bahnschrift', sans-serif;
+    font-family: 'Bahnschrift','Trebuchet MS', sans-serif;
     background-color: aliceblue;
 }
 
 h1 {
     font-size: 5rem;
-    font-family: 'Yu Gothic', sans-serif;
+    font-family: 'Yu Gothic', 'Trebuchet MS', sans-serif;
 }
 
 h2 {
     font-size: 4rem;
-    font-family: 'Yu Gothic', sans-serif;
+    font-family: 'Yu Gothic', 'Trebuchet MS', sans-serif;
     font-weight: bold;
     margin-top: 2rem;
 }
 
 h3 {
     font-size: 3rem;
-    font-family: 'Yu Gothic', sans-serif;
+    font-family: 'Yu Gothic', 'Trebuchet MS', sans-serif;
     font-weight: bold;
 }
 
