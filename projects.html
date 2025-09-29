@@ -8,34 +8,58 @@
         <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-        <!-- Navigation bar -->
-        <div>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="fun.html">Fun</a></li>
-            </ul>
+        <div class="header">
+            <!-- Navigation bar -->
+            <div class="navBar">
+                <ul class="grid-x grid-margin-x">
+                    <li class="cell small-12 large-6" id="myName"><h1>Anastasia Iogova</h1></li>
+                    <li class="cell small-12 medium-3 large-auto"><a href="index.html" target="_self">Home</a></li>
+                    <li class="cell small-12 medium-3 large-auto"><a href="projects.html" target="_self">Projects</a></li>
+                    <li class="cell small-12 medium-3 large-auto"><a href="resume.html" target="_self">Resume</a></li>
+                    <li class="cell small-12 medium-3 large-auto"><a href="fun.html" target="_self">Fun</a></li>
+                </ul>
+            </div>
         </div>
 
-        <h1>Projects</h1>
+        <!-- Page content -->
+        <div class="content"> 
+            <h2>Projects</h2>
+        
+            <div class="project">
+                <h3>Creative Coding Project</h3>
+                <div class="grid-x grid-margin-x">
+                    <div class="cell small-12  medium-6 large-8">
+                        <p>In this creative coding project, I developed an interactive game titled "Hamster Escape". I made this project using mainly JavaScript and the p5.js JavaScript library. Inspired by the popular game Flappy Bird, in this game, you control a hamster trying to escape from a cat by dodging moving cat paws. The game incorporates Perlin noise to create a natural, flowing movement for the cat paws, which adds a unique touch to the gameplay by ensuring that their movement feels random yet smooth.</p>
+                    </div>
+                    <div class="cell small-12 medium-6 large-4">
+                        <img src="images/hamsterEscapeResized.jpg" alt="A screenshot from a game I made called 'Hamster Escape'." />
+                    </div>
+                </div>
+            </div>
 
-        <div class="project">
-            <h2>Creative Coding Project</h2>
-            <p>In this creative coding project, I developed an interactive game titled "Hamster Escape". I made this project using mainly JavaScript and the p5.js JavaScript library. Inspired by the popular game Flappy Bird, in this game, you control a hamster trying to escape from a cat by dodging moving cat paws. The game incorporates Perlin noise to create a natural, flowing movement for the cat paws, which adds a unique touch to the gameplay by ensuring that their movement feels random yet smooth.</p>
-            <img src="images/hamsterEscape02.jpg" alt="A screenshot from a game I made called 'Hamster Escape'." />
-        </div>
+            <div class="project">
+                <h3>Game Design Project</h3>
+                <div class="grid-x grid-margin-x">
+                    <div class="cell small-12 medium-6 large-8">
+                        <p>"Cooking for the Common Good" was a team project created for my Game Design class, where I served as the sole programmer. It is an educational game exploring the importance of healthy eating habits. The game was built in GameMaker using GML, and I was responsible for all aspects of programming, including game logic, mechanics, debugging, and playtesting.</p>
+                    </div>
+                    <div class="cell small-12 medium-6 large-4">
+                        <img src="images/cftcgResized.jpg" alt="A screenshot from a game I worked on called 'Cooking for the Common Good'." />
+                    </div>
+                </div>
+            </div>
 
-        <div class="project">
-            <h2>Game Design Project</h2>
-            <img src="images/cftcg01.jpg" alt="A screenshot from a game I worked on called 'Cooking for the Common Good'." />
-            <p>"Cooking for the Common Good" was a team project created for my Game Design class, where I served as the sole programmer. It is an educational game exploring the importance of healthy eating habits. The game was built in GameMaker using GML, and I was responsible for all aspects of programming, including game logic, mechanics, debugging, and playtesting.</p>
-        </div>
-
-        <div class="project">
-            <h2>Game Production Project</h2>
-            <img src="images/ca02.jpg" alt="A screenshot from a game I worked on called 'Carrying Anxiety'." />
-            <p>"Carrying Anxiety" was a team project created for my Game Production course, where I was the sole programmer. It is a narrative-driven adventure about navigating social anxiety in a fantasy world. The game was developed in GameMaker using GML, and I handled all programming tasks. I also managed debugging, playtesting, and refining game logic to enhance player experience. While the original intent was to portray the difficulties of social anxiety, the final product evolved into more of a lighthearted and quirky adventure.</p>
+            <div class="project">
+                <h3>Game Production Project</h3>
+                <div class="grid-x grid-margin-x">
+                    <div class="cell small-12 medium-6 large-8">
+                        <p>"Carrying Anxiety" was a team project created for my Game Production course, where I was the sole programmer. It is a narrative-driven adventure about navigating social anxiety in a fantasy world. The game was developed in GameMaker using GML, and I handled all programming tasks. I also managed debugging, playtesting, and refining game logic to enhance player experience. While the original intent was to portray the difficulties of social anxiety, the final product evolved into more of a lighthearted and quirky adventure.</p>
+                    </div>
+                    <div class="cell small-12 medium-6 large-4">
+                        <img src="images/caResized.jpg" alt="A screenshot from a game I worked on called 'Carrying Anxiety'." />
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- include before closing <body> tag -->

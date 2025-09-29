@@ -8,75 +8,101 @@
         <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-        <!-- Navigation bar -->
-        <div>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="fun.html">Fun</a></li>
-            </ul>
+        <div class="header">
+            <!-- Navigation bar -->
+            <div class="navBar">
+                <ul class="grid-x grid-margin-x">
+                    <li class="cell small-12 large-6" id="myName"><h1>Anastasia Iogova</h1></li>
+                    <li class="cell small-12 medium-3 large-auto"><a href="index.html" target="_self">Home</a></li>
+                    <li class="cell small-12 medium-3 large-auto"><a href="projects.html" target="_self">Projects</a></li>
+                    <li class="cell small-12 medium-3 large-auto"><a href="resume.html" target="_self">Resume</a></li>
+                    <li class="cell small-12 medium-3 large-auto"><a href="fun.html" target="_self">Fun</a></li>
+                </ul>
+            </div>
         </div>
         
-        <h1>Resume</h1>
+        <!-- Page content -->
+        <div class="content"> 
+            <h2>Resume</h2>
 
-        <h2>Anastasia Iogova</h2>
-        <h3>Education</h3>
-        <ul>
-            <li>Bachelor of Science in Computer Science</li>
-            <li>Graduating Spring 2026</li>
-            <li>Minor in Digital Media Arts | Minor in Game Design</li>
-            <li>College of Arts and Sciences, University of St. Thomas, St. Paul, MN</li>
-            <li>GPA: 4.0, Deans List</li>
-            <li>Member, Computer Science Club</li>
-        </ul>
-        <h3>Related Courses</h3>
-        <ul>
-            <li>CISC 130: Intro to Programming and Problem-Solving: Used Matlab and C to write programs.</li>
-            <li>CISC 230: Object-Oriented Design and Programming: Used Java to write various programs under a style guide to learn object-oriented design concepts.</li>
-            <li>CISC 298: Creative Coding Practices and Techniques: Used JavaScript and the p5.js JavaScript library to create animations and games.</li>
-            <li>CISC 231: Data Structures Using Object-Oriented Design: Used Java to understand and implement various data structures in weekly labs.</li>
-            <li>CISC 340: Computer Architecture: Learned to use MIPS assembly language.</li>
-            <li>DIMA 246 & DIMA 346: Game Design and Game Production: Used GameMaker to make games aimed at contributing to the common good.</li>
-            <li>CISC 350: Information Security: Used the Linux command terminal to learn about cryptography.</li>
-            <li>CISC 410: Advanced Information Security: Learned about OS and application security, applied cryptography, and bitcoin and cryptocurrencies.</li>
-            <li>CISC 450: Database Design: Learned SQL and relational database design and management.</li>
-            <li>CISC 380: Algorithms: Learned about algorithm analysis, brute force, divide and conquer, dynamic programming, graph algorithms, and complexity.</li>
-            <li>CISC 480: Senior Capstone (currently enrolled): Worked in groups to design, document, and implement a large-scale software project. Experienced programming team organization, software development practices, and tools that facilitate the development of software systems.</li>
-            <li>CISC 375: Web Development (currently enrolled): Learned how to design and develop Web applications for the World Wide Web, with a particular emphasis on server-side processing and data-driven websites.</li>
-            <li>CISC 490: Advanced Business Intelligence Development (currently enrolled): Learned to analyze and manipulate large data sets using business intelligence platforms (such as Power BI), combining problem-solving skills, data analysis techniques, and tools like Python programming, artificial intelligence, and machine learning.</li>
-        </ul>
-        <h3>Technical Skills</h3>
-        <ul>
-            <li>Python</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>R</li>
-            <li>SQL</li>
-            <li>SQLite</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>p5.js</li>
-            <li>MIPS</li>
-            <li>Matlab</li>
-            <li>GameMaker (GML)</li>
-            <li>Linux</li>
-            <li>Technical Writing</li>
-        </ul>
-        <h3>Soft Skills</h3>
-        <ul>
-            <li>Hardworking</li>
-            <li>Responsible</li>
-            <li>Reliable</li>
-            <li>Friendly</li>
-            <li>Great Communicator</li>
-            <li>Excellent Collaboration Skills</li>
-            <li>Willing to Learn</li>
-            <li>Growth Mindset</li>
-            <li>Strong Work Ethic</li>
-            <li>Fluent in English and Russian</li>
-        </ul>
+            <div class="resumeSection">
+                <h3>Contact</h3>
+                <ul class="grid-x grid-margin-x">
+                    <li class="cell small-12 large-12">Personal Email: aiogova77@gmail.com</li>
+                    <li class="cell small-12 large-12">St. Thomas Email: iogo3143@stthomas.edu</li>
+                    <li class="cell small-12 large-12">Phone: 612-254-5523</li>
+                    <li class="cell small-12 large-12">LinkedIn: <a href="https://www.linkedin.com/in/anastasia-iogova/" target="_blank">https://www.linkedin.com/in/anastasia-iogova/</a></li>
+                </ul>
+            </div>
+
+            <div class="resumeSection">
+                <h3>Education</h3>
+                <ul class="grid-x grid-margin-x">
+                    <li class="cell small-12 large-8"><a href="https://www.stthomas.edu/academics/undergraduate/computer-science-major-and-minor/" target="_blank">Bachelor of Science in Computer Science</a></li>
+                    <li class="cell small-12 large-4 rightAlign">Graduating Spring 2026</li>
+                    <li class="cell small-12 large-12"><a href="https://www.stthomas.edu/catalog/curricula/digital-media-arts/index.html" target="blank">Minor in Digital Media Arts</a> | <a href="https://www.stthomas.edu/academics/undergraduate/game-design-minor/" target="_blank">Minor in Game Design</a></li>
+                    <li class="cell small-12 large-12">College of Arts and Sciences, <a href="https://www.stthomas.edu/" target="_blank">University of St. Thomas</a> , St. Paul, MN</li>
+                    <li class="cell small-12 large-12">GPA: 4.0, Deans List</li>
+                    <li class="cell small-12 large-12">Member, Computer Science Club</li>
+                </ul>
+            </div>
+
+            <div class="resumeSection">
+                <h3>Related Courses</h3>
+                <ul class="grid-x grid-margin-x grid-margin-y" id="relatedCourses">
+                    <li class="cell small-12 medium-6 large-4">CISC 130 <br> Intro to Programming and Problem-Solving: <br> Used Matlab and C to write programs.</li>
+                    <li class="cell small-12 medium-6 large-4">CISC 230 <br> Object-Oriented Design and Programming: <br> Used Java to write various programs under a style guide to learn object-oriented design concepts.</li>
+                    <li class="cell small-12 medium-6 large-4">CISC 298 <br> Creative Coding Practices and Techniques: <br> Used JavaScript and the p5.js JavaScript library to create animations and games.</li>
+                    <li class="cell small-12 medium-6 large-4">CISC 231 <br> Data Structures Using Object-Oriented Design: <br> Used Java to understand and implement various data structures in weekly labs.</li>
+                    <li class="cell small-12 medium-6 large-4">CISC 340 <br> Computer Architecture: <br> Learned to use MIPS assembly language.</li>
+                    <li class="cell small-12 medium-6 large-4">DIMA 246 & DIMA 346 <br> Game Design and Game Production: <br> Used GameMaker to make games aimed at contributing to the common good.</li>
+                    <li class="cell small-12 medium-6 large-4">CISC 350 <br> Information Security: <br> Used the Linux command terminal to learn about cryptography.</li>
+                    <li class="cell small-12 medium-6 large-4">CISC 410 <br> Advanced Information Security: <br> Learned about OS and application security, applied cryptography, and bitcoin and cryptocurrencies.</li>
+                    <li class="cell small-12 medium-6 large-4">CISC 450 <br> Database Design: <br> Learned SQL and relational database design and management.</li>
+                    <li class="cell small-12 medium-6 large-4">CISC 380 <br> Algorithms: <br> Learned about algorithm analysis, brute force, divide and conquer, dynamic programming, graph algorithms, and complexity.</li>
+                    <li class="cell small-12 medium-6 large-4">CISC 480 <br> Senior Capstone (currently enrolled): <br> Worked in groups to design, document, and implement a large-scale software project. Experienced programming team organization, software development practices, and tools that facilitate the development of software systems.</li>
+                    <li class="cell small-12 medium-6 large-4">CISC 375 <br> Web Development (currently enrolled): <br> Learned how to design and develop Web applications for the World Wide Web, with a particular emphasis on server-side processing and data-driven websites.</li>
+                    <li class="cell small-12 medium-6 large-4">CISC 490 <br> Advanced Business Intelligence Development (currently enrolled): <br> Learned to analyze and manipulate large data sets using business intelligence platforms (such as Power BI), combining problem-solving skills, data analysis techniques, and tools like Python programming, artificial intelligence, and machine learning.</li>
+                </ul>
+            </div>
+
+            <div class="resumeSection" id="techSkills">
+                <h3>Technical Skills</h3>
+                <ul class="grid-x grid-margin-x grid-margin-y">
+                    <li class="cell small-6 medium-4 large-3">Python</li>
+                    <li class="cell small-6 medium-4 large-3">Java</li>
+                    <li class="cell small-6 medium-4 large-3">C</li>
+                    <li class="cell small-6 medium-4 large-3">R</li>
+                    <li class="cell small-6 medium-4 large-3">SQL</li>
+                    <li class="cell small-6 medium-4 large-3">SQLite</li>
+                    <li class="cell small-6 medium-4 large-3">HTML</li>
+                    <li class="cell small-6 medium-4 large-3">CSS</li>
+                    <li class="cell small-6 medium-4 large-3">JavaScript</li>
+                    <li class="cell small-6 medium-4 large-3">p5.js</li>
+                    <li class="cell small-6 medium-4 large-3">MIPS</li>
+                    <li class="cell small-6 medium-4 large-3">Matlab</li>
+                    <li class="cell small-6 medium-4 large-3">GameMaker (GML)</li>
+                    <li class="cell small-6 medium-4 large-3">Linux</li>
+                    <li class="cell small-6 medium-4 large-3">Technical Writing</li>
+                </ul>
+            </div>
+
+            <div class="resumeSection" id="softSkills">
+                <h3>Soft Skills</h3>
+                <ul class="grid-x grid-margin-x grid-margin-y">
+                    <li class="cell small-6 medium-4 large-3">Hardworking</li>
+                    <li class="cell small-6 medium-4 large-3">Responsible</li>
+                    <li class="cell small-6 medium-4 large-3">Reliable</li>
+                    <li class="cell small-6 medium-4 large-3">Friendly</li>
+                    <li class="cell small-6 medium-4 large-3">Great Communicator</li>
+                    <li class="cell small-6 medium-4 large-3">Excellent Collaboration Skills</li>
+                    <li class="cell small-6 medium-4 large-3">Willing to Learn</li>
+                    <li class="cell small-6 medium-4 large-3">Growth Mindset</li>
+                    <li class="cell small-6 medium-4 large-3">Strong Work Ethic</li>
+                    <li class="cell small-6 medium-4 large-3">Fluent in English and Russian</li>
+                </ul>
+            </div>
+        </div>
 
         <!-- include before closing <body> tag -->
         <script src="js/vendor/jquery.js"></script>

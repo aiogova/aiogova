@@ -2,3 +2,123 @@ html {
   font-size: 62.5%;
 }
 
+body {
+    font-size: 2.5rem;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: 'Bahnschrift', sans-serif;
+    background-color: aliceblue;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: 'Yu Gothic', sans-serif;
+}
+
+h2 {
+    font-size: 4rem;
+    font-family: 'Yu Gothic', sans-serif;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+h3 {
+    font-size: 3rem;
+    font-family: 'Yu Gothic', sans-serif;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+    /* border: 1px solid rgb(0, 68, 255); */
+    /* background-color: #b642f5; */
+}
+
+a {
+    color: rgb(5, 5, 126);
+}
+
+a:hover {
+    color:rgb(181, 34, 222);
+}
+
+img {
+    width: 100%;
+}
+
+.content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #000000;
+    color: white;  
+    padding: 2rem; 
+}
+
+/* .header h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+} */
+
+.navBar {
+    text-align: center;
+    /* margin-bottom: 3rem; */
+}
+
+#myName {
+    text-align: left;
+    background-color: transparent;
+    margin-left: 6.5rem;
+}
+
+.navBar ul li a {
+    display: block;
+    padding: 1.3rem;
+    color: black;
+}
+
+.navBar ul li {
+    background-color: whitesmoke;
+}
+
+.navBar ul li:hover {
+    background-color: rgb(233, 189, 255);
+}
+
+.imgAlign {
+    text-align: center;
+}
+
+.project {
+    margin-top: 3rem;
+}
+
+.resumeSection {
+    margin-top: 3rem;
+}
+
+.rightAlign {
+    text-align: right;
+}
+
+#techSkills ul li, #softSkills ul li, #relatedCourses li {
+    border: 1px solid rgb(181, 34, 222);
+    padding: 1rem;
+} 
+
+#relatedCourses {
+    text-align: center;
+}
+
+#games {
+    list-style-type: disc; 
+}
+
+.addTopMargin {
+    margin-top: 4rem;
+}

@@ -8,23 +8,58 @@
         <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-        <!-- Navigation bar -->
-        <div>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="fun.html">Fun</a></li>
-            </ul>
+        <div class="header">
+            <!-- Navigation bar -->
+            <div class="navBar">
+                <ul class="grid-x grid-margin-x">
+                    <li class="cell small-12 large-6" id="myName"><h1>Anastasia Iogova</h1></li>
+                    <li class="cell small-12 medium-3 large-auto"><a href="index.html" target="_self">Home</a></li>
+                    <li class="cell small-12 medium-3 large-auto"><a href="projects.html" target="_self">Projects</a></li>
+                    <li class="cell small-12 medium-3 large-auto"><a href="resume.html" target="_self">Resume</a></li>
+                    <li class="cell small-12 medium-3 large-auto"><a href="fun.html" target="_self">Fun</a></li>
+                </ul>
+            </div>
         </div>
 
-        <h1>Fun Stuff</h1>
-        <ul>
-            <li>Hamsters</li>
-            <li>Arts and Crafts (perler beads, rock painting, gem art, rainbow loom, etc)</li>
-            <li>Raise monarch butterflies each summer</li>
-            <li>Video Games (favorites include: Outer Wilds, Undertale, Subnautica, Omori, and more)</li>
-        </ul>
+        <!-- Page content -->
+        <div class="content"> 
+            <h2>Fun Stuff</h2>
+            <p>Things I like:</p>
+            <ul>
+                <div class="grid-x grid-margin-x grid-margin-y">
+                    <li class="cell small-12 medium-6 large-6 addTopMargin"><strong>Hamsters!</strong> They are my favorite animal!
+                        <img src="images/harryResized.jpg" alt="A photo of my old hamster, Harry." />
+                    </li>
+                    <li class="cell small-12 medium-6 large-6">I raise <strong>monarch butterflies</strong> each summer!
+                        <img src="images/monarchButterfly.jpg" alt="A monarch butterfly sitting on my hand." />
+                    </li>
+                </div>
+                <li class="addTopMargin"><strong>Arts and Crafts!</strong> I love doing anything crafty!
+                    <ul class="grid-x grid-margin-x grid-margin-y">
+                        <li class="cell small-12 medium-6 large-3">Perler beads
+                            <img src="images/perlerResized.jpg" alt="A hamster and chipmunk made out of perler beads." />
+                        </li>
+                        <li class="cell small-12 medium-6 large-3">Rock painting
+                            <img src="images/rockResized.jpg" alt="A painted rock with a blue background and monarch butterflies painted on it." />
+                        </li>
+                        <li class="cell small-12 medium-6 large-3">Gem art
+                            <img src="images/gemArt.jpg" alt="A gem art portait of Toothless and Stitch." />
+                        </li>
+                        <li class="cell small-12 medium-6 large-3">Rainbow loom
+                            <img src="images/Rainbow_Loom_multicolored_bands.jpg" alt="Rainbow loom bands." />
+                        </li>
+                    </ul>
+                </li>
+                <li class="addTopMargin"><strong>Video Games!</strong> Some of my favorites are:
+                    <ul id="games">
+                        <li>Outer Wilds</li>
+                        <li>Undertale</li>
+                        <li>Subnautica</li>
+                        <li>Omori</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
         
 
         <!-- include before closing <body> tag -->
